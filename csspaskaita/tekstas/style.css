@@ -1,0 +1,50 @@
+h2{
+    text-shadow: 1px 1px 3px black;
+}
+
+div.veliava p{
+    line-height: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /*
+    border-style: dotted;
+    border-width: 2px;
+    border-color: purple;
+    */
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+}
+/* paims visus elementus kurie turi class zalia*/
+.zalia{
+    background-color: green;
+}
+
+#raudona{
+    background-color: red;
+}
+/*imu visus elementus kurie turi atributa class*/
+[class$="a"]{
+    color: white;
+}
+
+/* kai isvardinu ir atskiriu kableliais tai tiems isvardintiems elementams ir pakeiciamas stilius*/
+.geltona, .zalia, .raudona{
+    text-align: justify;
+}
+
+address p{
+    border-top: 2px double purple;
+    border-bottom: 2px double purple;
+}
+
+/* gilumos selektorius */
+address p span{
+    color:chartreuse;
+    font-size: 20px;
+}
+
+
+
+
+
+
